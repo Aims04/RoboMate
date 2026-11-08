@@ -12,10 +12,6 @@ The system follows a hybrid edge-cloud architecture: speech recognition and lang
 
 The project began with an initial concept sketch outlining the robot's physical appearance, component placement, and overall enclosure design.
 
-### Initial Concept Sketch
-<img width="1114" height="1548" alt="image" src="https://github.com/user-attachments/assets/8da3d02f-f956-4b68-8eb1-2cd191605875" />
-
-
 ### 3D Enclosure Design
 
 The robot enclosure was designed using SOLIDWORKS as a custom housing for the Raspberry Pi and associated hardware components. The design incorporates openings and mounting features to accommodate the display, audio components, and internal assembly.

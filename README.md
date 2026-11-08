@@ -19,22 +19,19 @@ The robot enclosure was designed using SOLIDWORKS as a custom housing for the Ra
 **Isometric Assembly View**
 
 <p align="center">
-  <img src="<img width="1600" height="960" alt="image" src="https://github.com/user-attachments/assets/e66f9eac-da04-4d8a-99ed-6bb7b21a39e8" />
-">
+  <img src="https://github.com/user-attachments/assets/e66f9eac-da04-4d8a-99ed-6bb7b21a39e8" width="680" alt="RoboMate isometric CAD assembly view">
 </p>
 
 **Transparent Enclosure View**
 
 <p align="center">
-  <img src="<img width="1426" height="1085" alt="image" src="https://github.com/user-attachments/assets/3f81eb32-e936-4eb1-a331-fdc60dc79e13" />
-" width="680" alt="RoboMate transparent enclosure CAD view">
+  <img src="https://github.com/user-attachments/assets/3f81eb32-e936-4eb1-a331-fdc60dc79e13" width="680" alt="RoboMate transparent enclosure CAD view">
 </p>
 
 **Orthographic and Trimetric Views**
 
 <p align="center">
-  <img src="<img width="1425" height="1085" alt="image" src="https://github.com/user-attachments/assets/f435ed08-634d-467e-afa6-4fe9515719b5" />
-">
+  <img src="https://github.com/user-attachments/assets/f435ed08-634d-467e-afa6-4fe9515719b5" width="900" alt="RoboMate orthographic and trimetric CAD views">
 </p>
 
 
@@ -56,8 +53,7 @@ The robot enclosure was designed using SOLIDWORKS as a custom housing for the Ra
 RoboMate uses a hybrid edge-cloud architecture, separating local processing on the Raspberry Pi from AI services hosted by Groq.
 
 <p align="center">
-  <img src="<img width="1600" height="800" alt="image" src="https://github.com/user-attachments/assets/7b47a1d0-16f8-429b-8eaa-5baf5c3fafb7" />
-L" width="100%" alt="RoboMate system architecture and processing workflow">
+  <img src="https://github.com/user-attachments/assets/7b47a1d0-16f8-429b-8eaa-5baf5c3fafb7" width="100%" alt="RoboMate system architecture and processing workflow">
 </p>
 
 ### Processing Workflow
@@ -116,9 +112,17 @@ L" width="100%" alt="RoboMate system architecture and processing workflow">
 
 Photographs of the assembled prototype and internal hardware will be added here as documentation of the physical implementation.
 
-<!-- Add the assembled prototype photograph here when available. -->
+### Hardware Assembly
 
-<!-- Add the internal hardware photograph here when available. -->
+The final prototype was assembled using a Raspberry Pi 4 Model B, an SH1106 OLED display, a USB microphone, and a wired USB speaker, housed within the custom-designed 3D-printed enclosure.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ff27f172-a234-4c05-9bd0-f883a0e15c81" width="520" alt="Final assembled RoboMate prototype">
+</p>
+
+<p align="center">
+  <em>Final assembled RoboMate prototype.</em>
+</p>
 
 ## Project Structure
 

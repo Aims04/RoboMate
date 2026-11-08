@@ -6,12 +6,39 @@ A voice-enabled smart campus assistant designed to help students access college 
 
 RoboMate is a desk-based assistant robot developed for the Vidyavardhaka College of Engineering (VVCE) campus. It allows students to ask questions about college facilities, departments, faculty, campus locations, and other institutional information using voice commands.
 
-The system follows a hybrid edge-cloud architecture: speech recognition and language generation are powered by Groq-hosted AI models, while knowledge retrieval, text-to-speech, and hardware interaction run locally on the Raspberry Pi.
+The system follows a hybrid edge-cloud architecture: speech recognition and language processing are powered by Groq-hosted AI models, while knowledge retrieval, text-to-speech, and hardware interaction run locally on the Raspberry Pi.
+
+## Concept and Design
+
+The project began with an initial concept sketch outlining the robot's physical appearance, component placement, and overall enclosure design.
+
+### Initial Concept Sketch
+<img width="1114" height="1548" alt="image" src="https://github.com/user-attachments/assets/8da3d02f-f956-4b68-8eb1-2cd191605875" />
+
+
+### 3D Enclosure Design
+
+The robot enclosure was designed using SOLIDWORKS as a custom housing for the Raspberry Pi and associated hardware components. The design incorporates openings and mounting features to accommodate the display, audio components, and internal assembly.
+
+**Isometric Assembly View**
+
+<img width="1600" height="960" alt="image" src="https://github.com/user-attachments/assets/8172cf7e-1544-4279-b87f-b447a79665fc" />
+
+
+**Transparent Enclosure View**
+
+<img width="1426" height="1085" alt="image" src="https://github.com/user-attachments/assets/663e7335-ed48-4368-a5d6-5602367d84f4" />
+
+
+**Orthographic and Trimetric Views**
+
+<img width="1425" height="1085" alt="image" src="https://github.com/user-attachments/assets/2f7e0764-c816-47d4-86ce-950e017fd536" />
 
 ## Key Features
 
 - **Voice interaction:** Accepts spoken questions through a USB microphone.
 - **Speech recognition:** Uses Groq Whisper (`whisper-large-v3`) to transcribe speech.
+- **Query understanding:** Uses Llama 3.3 70B through Groq to rewrite the transcribed question into search queries before retrieval.
 - **LLM-powered responses:** Uses Llama 3.3 70B Versatile through the Groq API.
 - **Retrieval-Augmented Generation:** Retrieves relevant information from a curated college knowledge base before generating campus-specific responses.
 - **Semantic search:** Uses FastEmbed with `sentence-transformers/all-MiniLM-L6-v2` for local text embeddings.
@@ -21,29 +48,31 @@ The system follows a hybrid edge-cloud architecture: speech recognition and lang
 
 ## System Architecture
 
-```mermaid
-flowchart TD
-    A[Student speaks] --> B[USB Microphone]
-    B --> C[Groq Whisper<br/>Speech-to-Text]
-    C --> D[Recognized Question]
-    D --> E[RAG Engine]
-    E --> F[FastEmbed<br/>Semantic Search]
-    F --> G[College JSON Knowledge Base]
-    G --> H[Retrieved Context]
-    H --> I[Groq API<br/>Llama 3.3 70B]
-    I --> J[Generated Response]
-    J --> K[Piper Text-to-Speech]
-    K --> L[USB Speaker]
-    M[OLED Display] --> N[Robot Status / Expressions]
-    O[Raspberry Pi 4] --- E
-    O --- K
-    O --- M
-```
+RoboMate uses a hybrid edge-cloud architecture, separating local processing on the Raspberry Pi from AI services hosted by Groq.
+<img width="1600" height="800" alt="WhatsApp Image 2026-11-09 at 02 21 25" src="https://github.com/user-attachments/assets/4ec61568-1820-4dea-8843-9ef8568e928e" />
 
-The architecture uses a hybrid edge-cloud approach:
 
-- **Cloud processing:** Groq-hosted Whisper handles speech recognition, while Groq-hosted Llama 3.3 70B generates responses.
-- **Local processing:** FastEmbed performs semantic embedding and retrieval against the college knowledge base. Piper handles speech synthesis, while the Raspberry Pi manages the OLED display and hardware interaction.
+### Processing Workflow
+
+1. **Audio Capture:** The Raspberry Pi records the user's spoken query through the USB microphone.
+2. **Speech-to-Text:** Audio is sent to Groq Whisper (`whisper-large-v3`), which converts speech into text.
+3. **Query Understanding:** Groq-hosted Llama 3.3 70B rewrites the transcribed question into search queries and identifies the query type.
+4. **Vectorization:** The search queries are embedded locally using FastEmbed and the `all-MiniLM-L6-v2` model.
+5. **Local Information Retrieval:** The RAG engine calculates cosine similarity against the curated college JSON knowledge base and retrieves relevant context.
+6. **Answer Generation:** The retrieved context is sent to Groq-hosted Llama 3.3 70B, which generates a context-aware response.
+7. **Speech Synthesis:** The generated answer is returned to the Raspberry Pi, where Piper converts the text into speech.
+8. **Audio Output:** The USB speaker plays the generated response to the user.
+
+### Edge and Cloud Responsibilities
+
+| Raspberry Pi (Edge Device) | Groq (Cloud Services) |
+|---|---|
+| Audio capture | Whisper speech recognition |
+| FastEmbed vectorization | Query understanding |
+| Local semantic retrieval | Llama-based answer generation |
+| JSON knowledge base | |
+| Piper text-to-speech | |
+| OLED and hardware interaction | |
 
 ## Technology Stack
 
@@ -52,6 +81,7 @@ The architecture uses a hybrid edge-cloud approach:
 | Main programming language | Python |
 | Hardware platform | Raspberry Pi 4 Model B (4 GB) |
 | Speech recognition | Groq Whisper Large v3 |
+| Query understanding | Llama 3.3 70B via Groq |
 | Language model | Llama 3.3 70B Versatile |
 | AI API platform | Groq |
 | Embedding model | `sentence-transformers/all-MiniLM-L6-v2` |
@@ -74,6 +104,14 @@ The architecture uses a hybrid edge-cloud approach:
 - 32 GB microSD card
 - Custom-designed and 3D-printed robot enclosure
 
+### Hardware Assembly
+
+Photographs of the assembled prototype and internal hardware will be added here as documentation of the physical implementation.
+
+<!-- Add the assembled prototype photograph here when available. -->
+
+<!-- Add the internal hardware photograph here when available. -->
+
 ## Project Structure
 
 ```text
@@ -92,9 +130,9 @@ RoboMate/
 │   ├── robot_info.json
 │   └── sports.json
 │
-├── config/
-├── core/
-├── llm/
+├── config/                  # placeholder module (experimental)
+├── core/                    # placeholder modules (experimental)
+├── llm/                     # placeholder modules (experimental)
 ├── modes/                   # experimental modes
 │
 ├── voice/
@@ -103,15 +141,23 @@ RoboMate/
 │   ├── stt_vosk.py          # experimental (offline STT)
 │   └── tts_piper.py
 │
+├── docs/
+│   └── images/
+│       ├── concept_sketch.png
+│       ├── cad_isometric.png
+│       ├── cad_views.jpg
+│       └── architecture_pipeline.png
+│
+├── 3d_design/               # original CAD design files
+│
 ├── eyes.py                  # experimental OLED eye animations
 ├── groq_handler.py
 ├── main.py                  # testing entry point
 ├── oled_display.py
 ├── rag_engine.py
 ├── robot_daemon.py          # primary entry point
-├── robot_eyes_simulator.py  # experimental (desktop simulator)
+├── robot_eyes_simulator.py  # experimental desktop simulator
 ├── test_oled.py             # OLED test script
-├── .env.example
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -190,7 +236,7 @@ Install the Piper runtime and download the `en_US-lessac-medium` voice model for
 
 ```text
 piper/
-├── piper                        # Linux executable
+├── piper
 ├── en_US-lessac-medium.onnx
 └── en_US-lessac-medium.onnx.json
 ```
@@ -223,6 +269,7 @@ The project is also documented in the following research preprint:
 ## Development Notes
 
 - The current primary application uses Groq-hosted Whisper and Llama models.
+- Query understanding and answer generation use Groq-hosted language models.
 - Semantic retrieval and the college knowledge base are handled locally.
 - Piper provides local text-to-speech.
 - API credentials and large model/runtime files are intentionally excluded from version control.

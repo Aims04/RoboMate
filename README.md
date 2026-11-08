@@ -18,17 +18,26 @@ The robot enclosure was designed using SOLIDWORKS as a custom housing for the Ra
 
 **Isometric Assembly View**
 
-<img width="1600" height="960" alt="image" src="https://github.com/user-attachments/assets/8172cf7e-1544-4279-b87f-b447a79665fc" />
-
+<p align="center">
+  <img src="<img width="1600" height="960" alt="image" src="https://github.com/user-attachments/assets/e66f9eac-da04-4d8a-99ed-6bb7b21a39e8" />
+">
+</p>
 
 **Transparent Enclosure View**
 
-<img width="1426" height="1085" alt="image" src="https://github.com/user-attachments/assets/663e7335-ed48-4368-a5d6-5602367d84f4" />
-
+<p align="center">
+  <img src="<img width="1426" height="1085" alt="image" src="https://github.com/user-attachments/assets/3f81eb32-e936-4eb1-a331-fdc60dc79e13" />
+" width="680" alt="RoboMate transparent enclosure CAD view">
+</p>
 
 **Orthographic and Trimetric Views**
 
-<img width="1425" height="1085" alt="image" src="https://github.com/user-attachments/assets/2f7e0764-c816-47d4-86ce-950e017fd536" />
+<p align="center">
+  <img src="<img width="1425" height="1085" alt="image" src="https://github.com/user-attachments/assets/f435ed08-634d-467e-afa6-4fe9515719b5" />
+">
+</p>
+
+
 
 ## Key Features
 
@@ -45,8 +54,11 @@ The robot enclosure was designed using SOLIDWORKS as a custom housing for the Ra
 ## System Architecture
 
 RoboMate uses a hybrid edge-cloud architecture, separating local processing on the Raspberry Pi from AI services hosted by Groq.
-<img width="1600" height="800" alt="WhatsApp Image 2026-11-09 at 02 21 25" src="https://github.com/user-attachments/assets/4ec61568-1820-4dea-8843-9ef8568e928e" />
 
+<p align="center">
+  <img src="<img width="1600" height="800" alt="image" src="https://github.com/user-attachments/assets/7b47a1d0-16f8-429b-8eaa-5baf5c3fafb7" />
+L" width="100%" alt="RoboMate system architecture and processing workflow">
+</p>
 
 ### Processing Workflow
 

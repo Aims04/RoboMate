@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Principal",
+    "keywords": ["principal", "head of college"],
+    "content": "The Principal of VVCE is Dr. B. Sadashive Gowda."
+  },
+  {
+    "title": "HOD Computer Science and Engineering",
+    "keywords": ["hod cse", "head of cse", "computer science hod"],
+    "content": "The Head of the Computer Science and Engineering department is Dr. Pooja M.R."
+  },
+  {
+    "title": "HOD Artificial Intelligence and Machine Learning",
+    "keywords": ["hod aiml", "head of aiml", "machine learning hod"],
+    "content": "The Head of the Artificial Intelligence and Machine Learning department is Dr. Aditya C.R."
+  },
+  {
+    "title": "HOD Electronics and Communication Engineering",
+    "keywords": ["hod ece", "head of ece", "electronics hod"],
+    "content": "The Head of the Electronics and Communication Engineering department is Dr. Chandrashekar M. Patil."
+  },
+  {
+    "title": "HOD Electrical and Electronics Engineering",
+    "keywords": ["hod eee", "head of eee", "electrical hod"],
+    "content": "The Head of the Electrical and Electronics Engineering department is Dr. Gopala Reddy K."
+  },
+  {
+    "title": "HOD Civil Engineering",
+    "keywords": ["hod civil", "head of civil", "civil hod"],
+    "content": "The Head of the Civil Engineering department is Dr. S. K. Prasad."
+  },
+  {
+    "title": "HOD Mechanical Engineering",
+    "keywords": ["hod mech", "head of mech", "mechanical hod"],
+    "content": "The Head of the Mechanical Engineering department is Dr. Vinay K. B."
+  },
+  {
+    "title": "Dean of Training and Placement",
+    "keywords": ["dean training", "dean placement", "dean of training and placement"],
+    "content": "The Dean of Training and Placement is Dr. Ravikumar V."
+  },
+  {
+    "title": "Head of Training",
+    "keywords": ["head of training", "training head"],
+    "content": "The Head of Training is Dr. Nithin Kumar."
+  },
+  {
+    "title": "Head of Placement",
+    "keywords": ["head of placement", "placement head"],
+    "content": "The Head of Placement is Dr. Arun Dixit."
+  }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "title":"Robot creators",
+        "keywords":["who created this robot","who created you","creators of this robot"],
+        "content": "This robot was created by students of the CSE Graduating batch of 2026, the students are: Aiman Shariff, Juniad Pasha, Bhargav and Mukesh Umesh under the guidance of Dr.Nithin Kumar. This version of the robot is an early prototype."
+    },
+    {
+        "title":"Robot info",
+        "keywords":["what is this robot created for","why are u made", "robot purpose"],
+        "content": "This robot was created by VVCE Students in 2026 as a final year project and to help the college in making the campus digitally smarter by helping out as a campus assistant by answering common questions from visitots, students and staff. This is an early prototype to ultimately meet this goal."
+    }
+
+]

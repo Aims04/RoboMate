@@ -1,0 +1,69 @@
+[
+ {
+  "title": "Library",
+  "keywords": ["library", "libary", "reading room", "study", "study room", "where to study", "study place", "books", "quiet place", "read books"],
+  "content": "The VVCE library is located in M Block, 7th floor. It operates from 8:30 AM to 8 PM on weekdays and until 5:30 PM on Saturdays. It's the perfect place to study with a collection of books, journals, and other academic resources."
+},
+  {
+    "title": "Principal Office",
+    "keywords": ["principal", "principal cabin", "head of college office"],
+    "content": "The principal's cabin is located in M Block, ground floor."
+  },
+  {
+    "title": "Main Office",
+    "keywords": ["main office", "administration office", "admin office", "fees office"],
+    "content": "The main administrative office is located in M Block, ground floor."
+  },
+  {
+    "title": "Training and Placement Cell",
+    "keywords": ["placement", "training and placement", "placement cell", "t and p"],
+    "content": "The Training and Placement Cell is located in M Block, 6th floor."
+  },
+  {
+    "title": "Canteens",
+    "keywords": ["canteen", "food court", "ccd", "snacks", "tea break", "food"],
+    "content": "There are four main food facilities on campus. The Food Court is beside A-Block. Another canteen is near the basketball court. A CCD outlet is opposite the main gate for light snacks. A food counter near the sports complex serves lunch at 1 PM and South Indian snacks and beverages at 10:30 AM."
+  },
+  {
+    "title": "Computer Science and Engineering Department",
+    "keywords": ["cse", "computer science department", "computer science and engineering"],
+    "content": "The Computer Science and Engineering department is located in M Block, 2nd floor."
+  },
+  {
+    "title": "Artificial Intelligence and Machine Learning Department",
+    "keywords": ["aiml", "artificial intelligence department", "machine learning department"],
+    "content": "The Artificial Intelligence and Machine Learning department is located in M Block, 2nd floor."
+  },
+  {
+    "title": "Electronics and Communication Engineering Department",
+    "keywords": ["ece", "electronics department", "electronics and communication engineering"],
+    "content": "The Electronics and Communication Engineering department is located in C Block, 2nd floor."
+  },
+  {
+    "title": "Electrical and Electronics Engineering Department",
+    "keywords": ["eee", "electrical department", "electrical and electronics engineering"],
+    "content": "The Electrical and Electronics Engineering department is located in C Block, 1st floor."
+  },
+  {
+    "title": "Mechanical Engineering Department",
+    "keywords": ["mech", "mechanical department", "mechanical engineering"],
+    "content": "The Mechanical Engineering department is located in D Block."
+  },
+  {
+    "title": "Civil Engineering Department",
+    "keywords": ["civil", "civil department", "civil engineering"],
+    "content": "The Civil Engineering department is located in B Block."
+  },
+  
+  {
+    "title": "Saukar Chenniah Auditorium",
+    "keywords": ["auditorium", "saukar chenniah", "chennaiah auditorium", "where is auditorium"],
+    "content": "The Saukar Chenniah Auditorium is the main auditorium is located at the D Block in the 3rd floor."
+  },
+  {
+    "title":"Examination Center",
+    "keywords":["where is the exam departement", "where is the controller of examiner office", "examination seciton"],
+    "content":"The Examination Department or the office of controller of examination is located at the G block, 3rd floor. "
+  }
+
+]

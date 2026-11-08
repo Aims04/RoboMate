@@ -1,0 +1,63 @@
+[
+
+  {
+    "title": "Basketball Court",
+    "keywords": ["basketball court", "basket ball court", "sports court", "basketball", "play basketball", "sports ground", "sports facility"],
+    "content": "The college has a dedicated basketball court available for students as part of its sports facilities."
+  },
+  {
+    "title": "Canteens and Food",
+    "keywords": ["canteen", "food court", "ccd", "snacks", "tea break", "food", "eat", "lunch", "breakfast", "dinner", "hungry", "cafeteria", "mess", "dining", "where to eat", "get food", "grab food"],
+    "content": "There are four main food facilities on campus where you can eat. The Food Court is beside A-Block. Another canteen is near the basketball court. A CCD outlet is opposite the main gate for light snacks and beverages. A food counter near the sports complex serves lunch at 1 PM and South Indian snacks and beverages at 10:30 AM. There are also muliple outlets outside the campus like Mumbai Chai, Dolphin Cafe, Kings cofee and more!"
+  },
+  {
+    "title": "General Campus Facilities",
+    "keywords": ["facilities", "infrastructure", "campus facilities", "college facilities", "amenities", "what facilities", "campus", "what does college have", "college infrastructure"],
+    "content": "VVCE offers modern infrastructure, well-equipped laboratories, sports facilities, hostels, and other student support amenities. For detailed information, students may visit the official college website."
+  },
+  {
+    "title":"Scholarships",
+    "keywords":["scholarships for students","are there any scholarships","financial aid", "scholarship application"],
+    "content":"There are scholarships available for students in vvce based on merit and need-based scholarship.. other than college scholarships there are other government scholarships like SSP, and other various scholarships."
+  },
+  {
+    "title": "Transport and Bus Facilities",
+    "keywords": ["bus", "transport", "college bus", "bus facility", "transportation", "bus service"],
+    "content": "VVCE provides bus facilities for students and staff. For transport-related queries, contact the transport coordinator or visit the main office for schedules and routes."
+  },
+  {
+    "title": "Drinking Water Facilities",
+    "keywords": ["drinking water", "water", "water cooler", "water facility"],
+    "content": "Drinking water facilities are available in all major blocks including M Block, A Block, B Block, C Block, and D Block. Water coolers and RO systems are installed on each floor usually at the corners."
+  },
+   {
+    "title": "Stationery Shop",
+    "keywords": ["stationery", "buy notebooks", "buy stationery", "stationary shop", "xerox"],
+    "content": "Stationery items, books, and supplies can be purchased from the department shop located near food court in the campus. There are also xerox shops nearby the campus for student use."
+  },
+  {
+    "title": "Parking Facilities",
+    "keywords": ["parking", "vehicle parking", "bike parking", "car parking", "two wheeler parking", "parking lot"],
+    "content": "Parking facilities are available for both two-wheelers and four-wheelers. Designated parking areas are located near the main entrance and around different blocks on campus."
+  },
+  {
+    "title": "Medical Facilities",
+    "keywords": ["medical", "ambulance", "first aid", "medical room", "health center", "emergency"],
+    "content": "VVCE has medical facilities including a first aid kit and ambulance service on campus. For medical emergencies, contact the main office or security immediately."
+  },
+   {
+    "title": "Smoking Policy",
+    "keywords": ["smoking", "is smoking allowed", "tobacco", "cigarette", "smoking zone"],
+    "content": "Smoking is strictly prohibited on the VVCE campus. The college maintains a smoke-free environment for the health and safety of all students and staff."
+  },
+     {
+    "title": "Campus Size",
+    "keywords": ["campus size", "how big is the college", "campus area", "college area"],
+    "content": "The VVCE campus is spread across 23 acres of land with modern infrastructure, multiple buildings, sports facilities, hostels, and green spaces."
+     },
+     {
+      "title":"Training and Placment Department",
+      "keywords":["what does tap do?", "what does training and placment department offer", "how is the training"],
+      "content":"The Training department offers training with multiple tie-ups with prominent trainers from 10 seconds, biozotic and more. Also they have multiple industry partners for training students in various fields."
+     }
+]

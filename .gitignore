@@ -1,0 +1,41 @@
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated audio and logs
+tmp_audio/
+*.wav
+*.mp3
+*.log
+
+# AI models
+models/
+*.gguf
+*.onnx
+*.ort
+*.safetensors
+
+# Piper runtime
+piper/
+piper_arm64.tar.gz
+
+# Local inference binaries
+llama.cpp/
+
+# Backups
+old/
+backup/
+*_BACKUP*/
+
+# Operating system
+.DS_Store
+Thumbs.db

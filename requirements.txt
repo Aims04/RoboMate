@@ -1,0 +1,18 @@
+# Cloud APIs (Groq Whisper STT+Llama LLM)
+groq==0.12.0
+httpx==0.27.2
+
+# Semantic search (FastEmbed, ONNX, no PyTorch) 
+fastembed
+
+# Audio
+sounddevice
+soundfile
+scipy
+
+# OLED display (SH1106 via luma) if u want u can use a diff display!!
+luma.oled
+pillow
+
+# System info used in main.py memory usage check for experimental data...
+psutil

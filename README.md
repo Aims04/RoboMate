@@ -146,6 +146,19 @@ The final prototype was assembled using a Raspberry Pi 4 Model B, an SH1106 OLED
   <em>Final assembled RoboMate prototype.</em>
 </p>
 
+## RoboMate in Action
+
+Watch the RoboMate prototype demonstrate voice interaction, campus information retrieval, and spoken responses through its Raspberry Pi-based interface.
+
+
+
+https://github.com/user-attachments/assets/f0e7593a-f334-4517-a536-0209ca1137f3
+
+
+
+
+
+
 ## Project Structure
 
 ```text

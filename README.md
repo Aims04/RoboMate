@@ -2,6 +2,28 @@
 
 A voice-enabled smart campus assistant designed to help students access college information through natural language conversations. RoboMate combines speech recognition, Large Language Models (LLMs), and Retrieval-Augmented Generation (RAG) in a Raspberry Pi-based robotic platform.
 
+<p align="center">
+  <!-- Programming & Hardware -->
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white">
+  <img src="https://img.shields.io/badge/3D%20Printing-555555?style=for-the-badge">
+
+  <!-- AI & Cloud -->
+  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Llama%203.3-0467DF?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Whisper-412991?style=for-the-badge">
+
+  <!-- RAG & Retrieval -->
+  <img src="https://img.shields.io/badge/RAG-00897B?style=for-the-badge">
+  <img src="https://img.shields.io/badge/FastEmbed-2C7A7B?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Top--K%20Retrieval-7952B3?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Cosine%20Similarity-6A5ACD?style=for-the-badge">
+
+  <!-- Runtime & Audio -->
+  <img src="https://img.shields.io/badge/ONNX%20Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white">
+  <img src="https://img.shields.io/badge/Piper%20TTS-444444?style=for-the-badge">
+</p>
+
 ## Overview
 
 RoboMate is a desk-based assistant robot developed for the Vidyavardhaka College of Engineering (VVCE) campus. It allows students to ask questions about college facilities, departments, faculty, campus locations, and other institutional information using voice commands.
